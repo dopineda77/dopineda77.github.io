@@ -12,8 +12,8 @@ body{
   margin: 2;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
   background-color: rgb(16, 56, 70);
+  /*background-color: rgb(5, 12, 104);*/
 }
 
 #top-title {
@@ -21,6 +21,8 @@ body{
   width: 100%;
   display: flex;
   position: fixed;
+  border-bottom: 200px;
+
 }
 
 #navtext:hover{
@@ -82,6 +84,7 @@ img {
   width: 100%;
   height: 7.5%;
   justify-content: space-evenly;
+  margin-top: 10%;
   margin-bottom: 10%;
 }
 .button{
@@ -202,4 +205,17 @@ img {
 .page-images{
   width:25%;
   border-radius: 2.5%;
+}
+
+/*#bigger-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}*/
+
+@media screen and (max-width: 1000px){
+  #about-me-section{
+    flex-direction: column;
+    align-items: center;
+  }
 }

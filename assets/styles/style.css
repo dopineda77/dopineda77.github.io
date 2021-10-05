@@ -6,14 +6,16 @@
   height: 100vh;
   width: 100vw;
   margin-top: 30px;
+  overscroll-behavior-y: none;
 }
 
 body{
   margin: 2;
   display: flex;
   flex-direction: column;
-  background-color: rgb(16, 56, 70);
+  background-color: #103846;
   /*background-color: rgb(5, 12, 104);*/
+  overscroll-behavior-y: none;
 }
 
 #top-title {
@@ -22,7 +24,7 @@ body{
   display: flex;
   position: fixed;
   border-bottom: 200px;
-
+  overscroll-behavior-y: none;
 }
 
 #navtext:hover{
@@ -39,7 +41,6 @@ body{
   background: none;
   border: none;
 }
-
 #navbar {
   display: flex;
   justify-content: flex-end;
@@ -51,6 +52,7 @@ body{
   justify-content: flex-start;
   align-items: flex-start;
   width: 50%;
+  height: 100%;
 }
 
 #about-me-section {
@@ -154,6 +156,7 @@ img {
   height: 25%;
   width: 80%;
   display:none;
+  justify-content: center;
 }
 #redbox{
   display:flex;
@@ -205,16 +208,19 @@ img {
 .page-images{
   width:25%;
   border-radius: 2.5%;
+  height: 90%;
 }
 
 /*#bigger-container{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  overscroll-behavior-y: none;
 }*/
 
 @media screen and (max-width: 1000px){
   #about-me-section{
+    flex-direction: column;
+    align-items: center;
+  }
+  #bottom-buttons{
     flex-direction: column;
     align-items: center;
   }

@@ -13,8 +13,8 @@ body{
   margin: 2;
   display: flex;
   flex-direction: column;
-  background-color: #103846;
-  /*background-color: rgb(5, 12, 104);*/
+  /* background-color: #103846; */
+  background-color: rgb(213, 205, 200);
   overscroll-behavior-y: none;
 }
 
@@ -32,7 +32,7 @@ body{
 }
 
 #navtext{
-  color: white;
+  color: black;
   font-size: 250%;
   font-family: Courier;
   flex-direction: column;
@@ -65,12 +65,12 @@ body{
   margin-left: 5%;
   justify-content: space-evenly;
   /*overflow: hidden;*/
-  /*background-color: white; */
+  /*background-color: black; */
 }
 
 #about-me-text {
   font-size: 100%;
-  color: white;
+  color: black;
   font-family: Courier;
   width: 25%;
 }
@@ -106,7 +106,7 @@ img {
 
 .cont-text{
   font-family: courier;
-  color: white;
+  color: black;
   width: 100%;
 }
 
@@ -118,7 +118,7 @@ img {
 
 .cont-title{
   font: 150% Courier;
-  color: white;
+  color: black;
 }
 
 .page-title{
@@ -127,13 +127,13 @@ img {
 }
 
 .page-title-text{
-  color:white;
+  color:black;
   font: 200% courier;
 }
 
 .link{
   font-family: Courier;
-  color: white;
+  color: black;
   text-align: center;
   font-size: 250%;
   text-decoration: none;
@@ -144,7 +144,7 @@ img {
 }
 
 .home-link{
-  color: white;
+  color: black;
   font-size: 250%;
   font-family: Courier;
   flex-direction: column;
@@ -174,7 +174,7 @@ img {
 }
 
 .menu-link{
-  color: white;
+  color: black;
   font-size: 180%;
   font-family: Courier;
   flex-direction: row;
@@ -194,7 +194,7 @@ img {
 }
 
 #contact-link{
-  color: white;
+  color: black;
   font-family: Courier;
   flex-direction: column;
   text-decoration: none;

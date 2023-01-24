@@ -1,7 +1,4 @@
-# dopineda77.github.io
-# dopineda77.github.io
-# dopineda77.github.io
-# dopineda77.github.io
-# dopineda77.github.io
-# dopineda77.github.io
-# this is a test to verify that my github repo is still working!
+# My portfolio
+
+ This is my personal website, a collection of some of the things I've worked on.
+
